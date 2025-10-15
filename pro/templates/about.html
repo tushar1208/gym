@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<!Doctype html>
+<html>
+<head>       
+    <title>Gym Website</title>        
+    <link rel="stylesheet" href=" {% static 'css/about.css' %} ">
+</head>
+<body>                
+    <div class="container">
+        <p>About Us</p>
+        <img src={% static 'images/gym13.jpg' %}>
+    </div>
+    <div class="container5">
+        <p>Our Experts</p>
+    </div>
+    <div class="container2">
+        <div class="bordeer-box">
+            <div class="row">
+                <img src={% static 'images/gym8.jpg' %}>
+                <div class="down">
+                    <h2>Mr. Hardeep Singh</h2>
+                    <p>Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities,including cardiovascular workouts (for the heart and blood circulation),strength training, and stretching. They work with people of all ages and skill levels.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src={% static 'images/gym expert.jpg' %}>
+                <div class="down">
+                    <h2>Ms.Eisha</h2>
+                    <p>Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities,including cardiovascular workouts (for the heart and blood circulation),strength training, and stretching. They work with people of all ages and skill levels.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="row">
+                <img src={% static 'images/gymexpert2.jpg' %}>
+                <div class="down">
+                    <h2>Mr. Sehaj Singh</h2>
+                    <p>Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities,including cardiovascular workouts (for the heart and blood circulation),strength training, and stretching. They work with people of all ages and skill levels.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src={% static 'images/gymexpert4.jpg' %}>
+                <div class="down">
+                    <h2>Mr. Sourab</h2>
+                    <p>Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities,including cardiovascular workouts (for the heart and blood circulation),strength training, and stretching. They work with people of all ages and skill levels.</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/ccdbd762c2.js" crossorigin="anonymous"></script>
+        {% endblock %}
+    </body>
+    </html>

@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <p>FIT HIT GYM</p>
+        </div>
+        <div class="right">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                          <li>
+                            <a href="/">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="/classes">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="/about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/account">Account</a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

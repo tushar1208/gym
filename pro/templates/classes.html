@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<!Doctype html>
+<html>
+    <head>
+        <title>Classe's</title>
+        <link rel="stylesheet" href="{% static 'css/classes.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <p>Classes/Schedule</p>
+            <img src="{% static 'images/classes.jpg' %}">
+        </div>
+        <div class="container2">
+            <div class="row">
+                <a href="/templates/photo.html"><img src="{% static 'images/fitness.jpeg' %}"></a>
+                <p>Basic Fitness</p>
+                <div class="down">
+                </div>
+            </div>
+            <div class="row">
+                <a href="/templates/photo.html"><img src="{% static 'images/gym14.jpg' %}"></a>
+                <p>Muscle Training</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="row">
+                <a href="/templates/photo.html"><img src="{% static 'images/muscle.jpg' %}"></a>
+                <p>Body Building</p>
+            </div>
+            <div class="row">
+                <a href="/templates/photo.html"><img src="{% static 'images/yoga.webp' %}"></a>
+                <p>Yoga Training</p>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/ccdbd762c2.js" crossorigin="anonymous"></script>
+        {% endblock %}
+    </body>
+    </html>

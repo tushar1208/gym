@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<!Doctype html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+</head>
+<body>
+    <div class="container">
+        <p>Contact Us</p>
+        <img src={% static 'images/body3.jpg' %}>
+    </div>
+    <section>
+        <div class="contact-container">
+            <div class="form-container">
+                <h3>Message Us</h3>
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" name="" id="" placeholder="Enter Email" required>
+                    <input type="text" name="" placeholder="Enter Subject" required>
+                    <textarea name="" id="" placeholder="Write Message" required></textarea>
+                        <input type="submit" value="send" class="btn">
+                    </form>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7137969333317!2d75.80614947530816!3d31.42201057425904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391afa2a5f5a356f%3A0x3fe8807f6a27d7b3!2sSant%20Baba%20Bhag%20Singh%20University!5e0!3m2!1sen!2sin!4v1684673215295!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>            
+        <script src="https://kit.fontawesome.com/ccdbd762c2.js" crossorigin="anonymous"></script>
+        {% endblock %}
+    </body>
+    </html>

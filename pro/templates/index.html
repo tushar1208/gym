@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<!Doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <p>It's Time To Get</p>
+            <p id="hope">STRONGER</p>
+            <img src={% static 'images/gym15.jpg' %}>
+        </div>
+        <div class="row">
+            <div class="program">
+                <p>Program</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="row2">
+                <table>
+                    <th><td><img src={% static 'images/dumble1.jpg' %} id="img"></td></th>
+                    <th><td><p  id="cont">Basic Fitness</p>
+                        <p id="top">Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles.There are seven basic movements the human body can perform and all other exercises are merely variations of these seven: Pull, Push, Squat, Lunge, Hinge, Rotation and Gait. When performing all of these movements, you will be able to stimulate all of the major muscle groups in your body.</p>
+                    </td></th>
+                    
+                </table>
+            </div>
+            <div class="row2">
+                <table >
+                    <th>
+                        <td>
+                            <p  id="content">Muscle Training</p>
+                            <p id="topper">Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles.There are seven basic movements the human body can perform and all other exercises are merely variations of these seven: Pull, Push, Squat, Lunge, Hinge, Rotation and Gait. When performing all of these movements, you will be able to stimulate all of the major muscle groups in your body.</p>
+                        </td>
+                    </th>
+                    <th><td><img src={% static 'images/dumble1.jpg' %} id="imgs"></td></th>
+
+                    
+                </table>
+                <div class="row2">
+                    <table>
+                        <th><td><img src={% static 'images/dumble1.jpg' %} id="img"></td></th>
+                        <th><td><p  id="cont">Yoga Training</p>
+                            <p id="top">Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles.There are seven basic movements the human body can perform and all other exercises are merely variations of these seven: Pull, Push, Squat, Lunge, Hinge, Rotation and Gait. When performing all of these movements, you will be able to stimulate all of the major muscle groups in your body.</p>
+                        </td></th>
+                        
+                    </table>
+                    <div class="row2">
+                        <table >
+                            <th><td><p  id="content">Body Building</p>
+                                <p id="topper">Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles.There are seven basic movements the human body can perform and all other exercises are merely variations of these seven: Pull, Push, Squat, Lunge, Hinge, Rotation and Gait. When performing all of these movements, you will be able to stimulate all of the major muscle groups in your body.</p>
+                            </td></th>
+                            <th><td><img src={% static 'images/dumble1.jpg' %} id="imgs"></td></th>
+                        </table>
+                </div>
+            </div>
+         </div>
+    </body>
+</html>
+{% endblock %}
